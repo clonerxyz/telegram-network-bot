@@ -1,0 +1,38 @@
+-SET YOUR UPDATER KEY WITH YOUR BOT API KEY
+updater = Updater("your key akses", use_context=True)
+-MUST BE RUN ON PYTHON 3 or newer
+
+-INSTALL ALL LIB WITH PYTHON PIP
+"""
+-json
+-requests
+-os
+-logging
+-random
+-telegram.ext
+-telegram
+-functools
+-time
+-sleep
+-datetime
+-telegram.utils.helpers
+
+-PUT ping.php on our htdocs web
+*put ping.sh,list.txt in same folder with ping.php
+*custom our /etc/hosts with ex : x.x.x.x VARIABLE-name (for list.txt)
+*eq ping.php php7.4.x or newer
+
+-INSTALL SSH PASS FOR TRACE PURPOSE
+*work with mikrotik for fasted trace result
+*setup ur ip service with def port ssh or maybe u can us
+virtual connect on internet with it(for sec reason).
+*these feature little bit buggy for reading the file as a perfect line with sed (maybe u must better )
+
+-RUN :
+* python3.x bot.py (ifsuccess our term ar frezee)
+* if failed the term show u error
+
+big thanks to :
+https://github.com/python-telegram-bot/python-telegram-bot/blob/master/README.rst
+
+for keep this alive
